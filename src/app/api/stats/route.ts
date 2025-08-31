@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // Market cap starts at 0 - will update when token launches
-let marketCap = 0;
+const marketCap = 0;
 
 export async function GET() {
   // When your token launches, replace this with real data from:

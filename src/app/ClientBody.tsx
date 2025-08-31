@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
+import { WalletProvider } from "../contexts/WalletContext";
 
 interface ClientBodyProps {
   children: ReactNode;
@@ -10,7 +11,9 @@ interface ClientBodyProps {
 export default function ClientBody({ children, className }: ClientBodyProps) {
   return (
     <body className={`${className} antialiased`}>
-      {children}
+      <WalletProvider>
+        {children}
+      </WalletProvider>
     </body>
   );
 }
