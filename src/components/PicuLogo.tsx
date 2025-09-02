@@ -6,7 +6,7 @@ export default function PicuLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`group ${className}`}>
       <Image
-        src="/logo.png" // since it's in /public
+        src="/logo.png" // from /public/logo.png
         alt="Logo"
         width={64}
         height={64}
