@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <AbstractBackground />
-      <Header />
       <TwitterButton />
+      <Header />
       <main>
         <Hero />
         <WalletsSection />
