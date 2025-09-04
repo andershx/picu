@@ -13,9 +13,9 @@ export default function Home() {
       <main>
         <Hero />
         <WalletsSection />
+        <TwitterButton />
       </main>
       <Footer />
-      <TwitterButton />
     </>
   );
 }
