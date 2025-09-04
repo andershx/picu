@@ -8,10 +8,10 @@ import TwitterButton from '@/components/TwitterButton';
 export default function Home() {
   return (
     <>
-      <AbstractBackground />
-      <TwitterButton />
+      <AbstractBackground />    
       <Header />
       <main>
+        <TwitterButton />
         <Hero />
         <WalletsSection />
       </main>
