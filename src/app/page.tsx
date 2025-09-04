@@ -11,11 +11,11 @@ export default function Home() {
       <AbstractBackground />    
       <Header />
       <main>
-        <TwitterButton />
         <Hero />
         <WalletsSection />
       </main>
       <Footer />
+      <TwitterButton />
     </>
   );
 }
