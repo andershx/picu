@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <AbstractBackground />
       <Header />
+      <TwitterButton />
       <main>
         <Hero />
-        <TwitterButton />
         <WalletsSection />
       </main>
       <Footer />
