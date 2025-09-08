@@ -53,7 +53,7 @@ export default function Hero() {
 
             <p className="text-xl text-gray-300">
               {isLive
-                ? `100 wallets containing 25 SOL each will unlock at $2.5M market cap. Current progress: ${progress.toFixed(1)}%`
+                ? `100 wallets containing 25 SOL each will unlock at $2,5M market cap. Current progress: ${progress.toFixed(1)}%`
                 : "Token launching soon! 100 Solana wallets with 2,500 SOL total prize pool awaiting."
               }
             </p>
