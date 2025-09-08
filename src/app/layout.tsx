@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PICU - Win 100 Solana Wallets",
-  description: "100 Solana wallets with 25 SOL each unlock at $10M market cap. Join the $PICU revolution!",
+  description: "100 Solana wallets with 25 SOL each unlock at $2,5M market cap. Join the $PICU revolution!",
 };
 
 export default function RootLayout({
