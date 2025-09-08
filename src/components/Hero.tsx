@@ -30,7 +30,7 @@ export default function Hero() {
     return `$${(cap / 1000000).toFixed(2)}M`;
   };
 
-  const progress = Math.min((marketCap / 10000000) * 100, 100);
+  const progress = Math.min((marketCap / 2500000) * 100, 100);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center py-20">
@@ -53,7 +53,7 @@ export default function Hero() {
 
             <p className="text-xl text-gray-300">
               {isLive
-                ? `100 wallets containing 25 SOL each will unlock at $10M market cap. Current progress: ${progress.toFixed(1)}%`
+                ? `100 wallets containing 25 SOL each will unlock at $2.5M market cap. Current progress: ${progress.toFixed(1)}%`
                 : "Token launching soon! 100 Solana wallets with 2,500 SOL total prize pool awaiting."
               }
             </p>
@@ -114,7 +114,7 @@ export default function Hero() {
                     {formatMarketCap(marketCap)}
                   </div>
                   <div className="text-sm text-gray-400">
-                    Target: $10,000,000
+                    Target: $2,500,000
                   </div>
                 </div>
 
