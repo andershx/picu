@@ -16,7 +16,7 @@ export default function TwitterButton(){
       target="_blank"
       rel="noopener noreferrer"
       className="inline-grid place-items-center w-8 h-8 rounded-full bg-white/10 border border-white/20 backdrop-blur hover:bg-white/20 transition"
-      aria-label="Open NORWA on X (Twitter)"
+      aria-label="Open PICU on X (Twitter)"
     >
       <XIcon className="w-4 h-4 text-[#1DA1F2]" />
     </a>
