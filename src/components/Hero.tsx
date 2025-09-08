@@ -74,7 +74,7 @@ export default function Hero() {
               </div>
               <div className="stat-card p-4 rounded-xl text-center">
                 <div className="text-3xl font-bold bg-gradient-to-r from-[#00FFA3] to-[#DC1FFF] bg-clip-text text-transparent">
-                  $10M
+                  $2,5M
                 </div>
                 <div className="text-sm text-gray-400">Target</div>
               </div>
