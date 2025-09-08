@@ -68,7 +68,7 @@ export default function WalletsSection() {
           <p className="text-gray-400 mb-6">
             {marketCap >= 2500000
               ? "🎉 All wallets are unlocked! Claim your 25 SOL!"
-              : `Wallets unlock at $2.5M market cap • Current: $${marketCap.toLocaleString()}`
+              : `Wallets unlock at $2,5M market cap • Current: $${marketCap.toLocaleString()}`
             }
           </p>
 
