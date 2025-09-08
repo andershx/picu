@@ -62,7 +62,7 @@ export default function WalletCard({
         {!isRevealed ? (
           <div className="text-center py-3">
             <div className="text-xs text-gray-400">
-              🔒 Unlocks at $2.5M market cap
+              🔒 Unlocks at $2,5M market cap
             </div>
           </div>
         ) : (
