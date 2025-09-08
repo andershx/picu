@@ -9,7 +9,7 @@ export default function Footer() {
             © 2025 picuwallets.com • All rights reserved
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            100 Solana wallets • 2,500 SOL total • Unlocks at $10M market cap
+            100 Solana wallets • 2,500 SOL total • Unlocks at $2,5M market cap
           </p>
         </div>
       </div>
