@@ -43,7 +43,7 @@ export default function WalletsSection() {
     return () => clearInterval(interval);
   }, []);
 
-  const progress = Math.min((marketCap / 10000000) * 100, 100);
+  const progress = Math.min((marketCap / 2500000) * 100, 100);
 
   if (loading) {
     return (
