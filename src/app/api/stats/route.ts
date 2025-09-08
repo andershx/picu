@@ -11,8 +11,8 @@ export async function GET() {
 
   return NextResponse.json({
     marketCap: marketCap,
-    targetMarketCap: 10000000, // $10M target
-    progress: (marketCap / 10000000) * 100,
+    targetMarketCap: 2500000, // $2,5M target
+    progress: (marketCap / 2500000) * 100,
     updatedAt: new Date().toISOString(),
   });
 }
