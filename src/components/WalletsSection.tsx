@@ -66,9 +66,9 @@ export default function WalletsSection() {
             Total Prize Pool: 2,500 SOL
           </p>
           <p className="text-gray-400 mb-6">
-            {marketCap >= 10000000
+            {marketCap >= 2500000
               ? "🎉 All wallets are unlocked! Claim your 25 SOL!"
-              : `Wallets unlock at $10M market cap • Current: $${marketCap.toLocaleString()}`
+              : `Wallets unlock at $2.5M market cap • Current: $${marketCap.toLocaleString()}`
             }
           </p>
 
@@ -83,7 +83,7 @@ export default function WalletsSection() {
             <div className="flex justify-between text-sm mt-2 text-gray-400">
               <span>$0</span>
               <span className="text-white font-bold">${marketCap.toLocaleString()}</span>
-              <span>$10,000,000</span>
+              <span>$2,500,000</span>
             </div>
           </div>
         </div>
