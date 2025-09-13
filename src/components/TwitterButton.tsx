@@ -15,7 +15,7 @@ function XIcon(props: React.SVGProps<SVGSVGElement>) {
 export default function TwitterButton() {
   return (
     <a
-      href="https://x.com/picuwallets"
+      href="https://x.com/andershx123"
       target="_blank"
       rel="noopener noreferrer"
       className="block mx-auto w-10 h-10 rounded-full 
